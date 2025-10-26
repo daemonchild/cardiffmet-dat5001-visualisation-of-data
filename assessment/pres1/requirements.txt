@@ -6,3 +6,6 @@ seaborn
 tabulate
 colorama
 bs4
+cartopy
+geopandas
+pycountry
