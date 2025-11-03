@@ -1,0 +1,39 @@
+Orange: ffbd02
+Blue background: 0f1a38
+Light Blue: 9ad3f3
+
+
+ selective yellow (#ffbb00), orange peel (#ff9d00), flush orange (#ff7b00), vermilion (#ff4800) and scarlet (#ff1e00).
+
+/* CSS HEX */
+--black: #020103ff;
+--ucla-blue: #4977AAff;
+--amber: #FFBD02ff;
+--lapis-lazuli: #395B83ff;
+--cool-gray: #989DB1ff;
+--ebony: #686347ff;
+--white: #FFFFFFff;
+--davys-gray: #565E5Eff;
+--black-2: #030609ff;
+--charcoal: #3E4A58ff;
+-- blue: #0f1a37ff; 
+
+--black: #020103ff;
+
+custom_palette = ['#4977AAff','#FFBD02ff','#395B83ff','#989DB1ff','#686347ff','#FFFFFFff','#565E5Eff','#3E4A58ff']
+
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Define a custom palette using hex codes
+custom_palette = ["#FF5733", "#33FF57", "#3357FF"]
+
+# Set the custom palette
+sns.set_palette(custom_palette)
+
+# Example plot
+tips = sns.load_dataset("tips")
+sns.scatterplot(data=tips, x="total_bill", y="tip", hue="day", palette=custom_palette)
+
+plt.show()
