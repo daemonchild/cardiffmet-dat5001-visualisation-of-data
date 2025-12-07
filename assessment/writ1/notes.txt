@@ -1,9 +1,0 @@
-Satcat.com
-
-API key secret created successfully
-Client ID: ab4bb01fa5644ab70754bbe4a2502eaa
-
-Client Secret: 1e7381346702286d5aec2e122b8b9a0c00c998251098e5a6e1a09136fd8219a0
-
-SatCat API Key	ab4bb01fa5644ab70754bbe4a2502eaa	just now	just now
-
